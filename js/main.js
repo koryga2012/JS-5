@@ -77,11 +77,11 @@ function createStyle() {
     }
     .indicators__item {
       display: block;
-      width: 20px;
-      height: 20px;
-      background-color: gray;
-      margin: 5px;
-      border-radius: 10px;
+      width: 10px;
+      height: 10px;
+      background-color: black;
+      margin: 10px;
+      border-radius: 5px;
     }`;
   styleContainer.innerHTML = styleCode;
   container.appendChild(styleContainer);
